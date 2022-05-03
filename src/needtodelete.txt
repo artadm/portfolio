@@ -1,0 +1,5 @@
+<Link className="nav__href" to="#">< AiOutlineHome /> </Link>
+    <Link className="nav__href" to="#about">< AiOutlineUser /> </Link>
+    <Link className="nav__href" to="#experience">< BsFillJournalBookmarkFill /> </Link>
+    <Link className="nav__href" to="services">< RiServiceLine /> </Link>
+    <Link className="nav__href" to="contact">< MdOutlineContacts /> </Link>
