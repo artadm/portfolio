@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a3cf35d2.css",
-    "main.js": "/portfolio/static/js/main.b554afb7.js",
-    "static/media/cv.pdf": "/portfolio/static/media/cv.1676dcdc83730930d888.pdf",
-    "static/media/me.png": "/portfolio/static/media/me.821ecddcb9953b46bf75.png",
-    "static/media/me-about.jpg": "/portfolio/static/media/me-about.fb4452e7f286d3636ef9.jpg",
-    "static/media/portfolio5.png": "/portfolio/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
-    "static/media/portfolio2.jpg": "/portfolio/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
-    "static/media/portfolio6.jpg": "/portfolio/static/media/portfolio6.72d1107e313049cf15a7.jpg",
-    "static/media/portfolio1.jpg": "/portfolio/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
-    "static/media/portfolio3.jpg": "/portfolio/static/media/portfolio3.cbab42559fe73e73906f.jpg",
-    "static/media/portfolio4.jpg": "/portfolio/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
+    "main.css": "/portfolio/static/css/main.7d5f633c.css",
+    "main.js": "/portfolio/static/js/main.8ef0f5ed.js",
+    "static/media/portfolio5.png": "/portfolio/static/media/portfolio5.c322efb31266f15d830d.png",
+    "static/media/portfolio1.png": "/portfolio/static/media/portfolio1.5b024e6013c95b61dbe5.png",
+    "static/media/portfolio2.png": "/portfolio/static/media/portfolio2.18f32ee3e2ed0d826886.png",
+    "static/media/Sibogatulin Artem resume.pdf": "/portfolio/static/media/Sibogatulin Artem resume.155cdcf6a78ef1601241.pdf",
+    "static/media/portfolio3.png": "/portfolio/static/media/portfolio3.9904e79f3848ec9c42af.png",
+    "static/media/portfolio4.png": "/portfolio/static/media/portfolio4.2f9d1fd58ffbd133f192.png",
+    "static/media/portfolio6.png": "/portfolio/static/media/portfolio6.3033efa39322acb55ee4.png",
+    "static/media/me-about.jpg": "/portfolio/static/media/me-about.4d8fd531334bda36c00d.jpg",
+    "static/media/me.jpg": "/portfolio/static/media/me.e9f2ccd07388edb25e1b.jpg",
     "index.html": "/portfolio/index.html",
-    "main.a3cf35d2.css.map": "/portfolio/static/css/main.a3cf35d2.css.map",
-    "main.b554afb7.js.map": "/portfolio/static/js/main.b554afb7.js.map"
+    "main.7d5f633c.css.map": "/portfolio/static/css/main.7d5f633c.css.map",
+    "main.8ef0f5ed.js.map": "/portfolio/static/js/main.8ef0f5ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3cf35d2.css",
-    "static/js/main.b554afb7.js"
+    "static/css/main.7d5f633c.css",
+    "static/js/main.8ef0f5ed.js"
   ]
 }
