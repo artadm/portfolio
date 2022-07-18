@@ -11,12 +11,12 @@ import img6 from '../../assets/portfolio6.png'
 
 const Portfolio = () => {
   const [portfolio, setPortfolio] = useState([
-    { id: 'portfolio1', title: 'This is a portfolio title!', img: img1, link: 'https://artadm.github.io/harvardKG/', gitLink: 'https://github.com/artadm/harvardKG' },
-    { id: 'portfolio2', title: 'This is a portfolio title!', img: img2, link: 'https://artadm.github.io/MyBlock/', gitLink: 'https://github.com/artadm/MyBlock' },
-    { id: "portfolio3", title: 'This is a portfolio title!', img: img3, link: 'https://artadm.github.io/5-65-aksuu/', gitLink: 'https://github.com/artadm/5-65-aksuu/' },
-    { id: "portfolio4", title: 'This is a portfolio title!', img: img4, link: 'https://artadm.github.io/workcomp/', gitLink: 'https://github.com/artadm/workcomp/' },
-    { id: "portfolio5", title: 'This is a portfolio title!', img: img5, link: ' https://artadm.github.io/Kembang-Flower-Mantap/', gitLink: 'https://github.com/artadm/Kembang-Flower-Mantap/' },
-    { id: "portfolio6", title: 'This is a portfolio title!', img: img6, link: 'https://artadm.github.io/portfolio/', gitLink: 'https://github.com/artadm/portfolio/' },
+    { id: 'portfolio1', title: 'HarvardKG', img: img1, link: 'https://artadm.github.io/harvardKG/', gitLink: 'https://github.com/artadm/harvardKG' },
+    { id: 'portfolio2', title: 'Page for your blog', img: img2, link: 'https://artadm.github.io/MyBlock/', gitLink: 'https://github.com/artadm/MyBlock' },
+    { id: "portfolio3", title: 'Template for online store', img: img3, link: 'https://artadm.github.io/5-65-aksuu/', gitLink: 'https://github.com/artadm/5-65-aksuu/' },
+    { id: "portfolio4", title: 'Template for servece company', img: img4, link: 'https://artadm.github.io/workcomp/', gitLink: 'https://github.com/artadm/workcomp/' },
+    { id: "portfolio5", title: 'Template for flower shop', img: img5, link: ' https://artadm.github.io/Kembang-Flower-Mantap/', gitLink: 'https://github.com/artadm/Kembang-Flower-Mantap/' },
+    { id: "portfolio6", title: 'This is a my portfolio template!', img: img6, link: 'https://artadm.github.io/portfolio/', gitLink: 'https://github.com/artadm/portfolio/' },
   ])
   return (<section id="portfolio">
     <h5>My Recent Work</h5>
