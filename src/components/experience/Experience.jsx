@@ -10,7 +10,7 @@ const Experience = () => {
     { id: Date.now(), language: 'JavaScript', level: 'Intermediate' },
     { id: Date.now(), language: 'React Js', level: 'Intermediate' },
     { id: Date.now(), language: 'Redux', level: 'Experienced' },
-    { id: Date.now(), language: 'TypeScript', level: 'Intermediate' },
+    { id: Date.now(), language: 'TypeScript', level: 'Experienced' },
     { id: Date.now(), language: 'Wordpress', level: 'Experienced' },
     { id: Date.now(), language: 'Axios, Thunk', level: 'Intermediate' },
   ])
@@ -31,7 +31,7 @@ const Experience = () => {
         <h3>Frontend Development</h3>
         <div className="experience__content">
           {frontend.map(el =>
-            <article key={el.id} className="experience__details">
+            <article key={el.language} className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div> <h4>{el.language}</h4>
                 <small className="text-light">{el.level}</small></div>
@@ -45,7 +45,7 @@ const Experience = () => {
         <h3>Backend Development</h3>
         <div className="experience__content">
           {backend.map(el =>
-            <article key={el.id} className="experience__details">
+            <article key={el.language} className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div> <h4>{el.language}</h4>
                 <small className="text-light">{el.level}</small></div>

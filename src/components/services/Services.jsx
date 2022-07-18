@@ -5,33 +5,29 @@ import { AiOutlineCheck } from 'react-icons/ai'
 const Services = () => {
   const [servicesDesign, setServicesDesign]
     = useState([
-      { id: Date.now(), service: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', },
-      { id: Date.now(), service: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', },
-      { id: Date.now(), service: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', },
-      { id: Date.now(), service: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', },
-      { id: Date.now(), service: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', },
+      { service: 'Building a design from scratch.', },
+      { service: 'Modern and beautiful websites.', },
+      { id: Date.now(), service: 'Beautiful and mesmerizing animations.', },
+      { service: 'Any of your wishes.', },
     ])
 
   const [servicesWeb, setServicesWeb]
     = useState([
-      { id: Date.now(), service: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', },
-      { id: Date.now(), service: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', },
-      { id: Date.now(), service: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', },
-      { id: Date.now(), service: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', },
-      { id: Date.now(), service: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', },
-      { id: Date.now(), service: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', },
-      { id: Date.now(), service: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', },
-      { id: Date.now(), service: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', },
+      { service: 'Landing layout.', },
+      { service: 'Layout of online stores.', },
+      { service: 'Sites with single page application', },
+      { service: 'Clean and readable code with decomposition.', },
+      { service: 'Always fast and high quality sites.', },
+      { service: 'Server interaction.', },
+      { service: 'Fixing broken code.', },
     ])
 
   const [servicesContent, setServicesContent]
     = useState([
-      { id: Date.now(), service: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', },
-      { id: Date.now(), service: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', },
-      { id: Date.now(), service: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', },
-      { id: Date.now(), service: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', },
-      { id: Date.now(), service: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', },
-      { id: Date.now(), service: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', },
+      { service: 'Full time work.', },
+      { service: 'Remote work.', },
+      { service: 'High productivity.', },
+      { service: 'Quick responses.', },
     ])
   return <section id="services">
     <h5>What I offer</h5>
@@ -44,8 +40,8 @@ const Services = () => {
         </div>
 
         <ul className="service__list">
-          {servicesDesign.map(el =>
-            <li key={el.id}><AiOutlineCheck className="service__list-icon" />
+          {servicesDesign.map((el, index) =>
+            <li key={index + 'des'}><AiOutlineCheck className="service__list-icon" />
               <p>{el.service}</p>
             </li>
           )}
@@ -58,8 +54,8 @@ const Services = () => {
         </div>
 
         <ul className="service__list">
-          {servicesWeb.map(el =>
-            <li key={el.id}><AiOutlineCheck className="service__list-icon" />
+          {servicesWeb.map((el, index) =>
+            <li key={index + 'web'}><AiOutlineCheck className="service__list-icon" />
               <p>{el.service}</p>
             </li>
           )}
@@ -68,12 +64,12 @@ const Services = () => {
 
       <article className="service">
         <div className="service__head">
-          <h3>Content Creation</h3>
+          <h3>Job</h3>
         </div>
 
         <ul className="service__list">
-          {servicesContent.map(el =>
-            <li key={el.id}><AiOutlineCheck className="service__list0icon" />
+          {servicesContent.map((el, index) =>
+            <li key={index + 'cont'}><AiOutlineCheck className="service__list0icon" />
               <p>{el.service}</p>
             </li>
           )}

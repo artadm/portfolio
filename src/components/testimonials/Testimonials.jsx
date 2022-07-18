@@ -32,7 +32,7 @@ const Testimonials = () => {
       scrollbar={{ draggable: true }}
     >
       {clients.map(el =>
-        <SwiperSlide key={`client ${el.id}`} className="testimonial">
+        <SwiperSlide key={el.img} className="testimonial">
           <div className="client__avatar">
             <img src={el.img} alt={'img'} />
           </div>

@@ -67,6 +67,11 @@
     margin: 2rem 0 2.6rem;
 }
 
+.about__text h6 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
 
 /* ===== middle devices */
 @media screen and (max-width: 1024px) {

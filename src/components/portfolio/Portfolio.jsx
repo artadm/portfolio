@@ -1,22 +1,22 @@
 import React from "react";
 import './Portfolio.css'
 import { useState } from "react";
-import img1 from '../../assets/portfolio1.jpg'
-import img2 from '../../assets/portfolio2.jpg'
-import img3 from '../../assets/portfolio3.jpg'
-import img4 from '../../assets/portfolio4.jpg'
+import img1 from '../../assets/portfolio1.png'
+import img2 from '../../assets/portfolio2.png'
+import img3 from '../../assets/portfolio3.png'
+import img4 from '../../assets/portfolio4.png'
 import img5 from '../../assets/portfolio5.png'
-import img6 from '../../assets/portfolio6.jpg'
+import img6 from '../../assets/portfolio6.png'
 
 
 const Portfolio = () => {
   const [portfolio, setPortfolio] = useState([
-    { id: 'portfolio1', title: 'This is a portfolio title!', img: img1, gitLink: 'https://github.com', link: 'https://dribbble.com/Alien_pixels', gitLink: 'https://github.com' },
-    { id: 'portfolio2', title: 'This is a portfolio title!', img: img2, gitLink: 'https://github.com', link: 'https://dribbble.com/Alien_pixels', gitLink: 'https://github.com' },
-    { id: "portfolio3", title: 'This is a portfolio title!', img: img3, gitLink: 'https://github.com', link: 'https://dribbble.com/Alien_pixels', gitLink: 'https://github.com' },
-    { id: "portfolio4", title: 'This is a portfolio title!', img: img4, gitLink: 'https://github.com', link: 'https://dribbble.com/Alien_pixels', gitLink: 'https://github.com' },
-    { id: "portfolio5", title: 'This is a portfolio title!', img: img5, gitLink: 'https://github.com', link: 'https://dribbble.com/Alien_pixels', gitLink: 'https://github.com' },
-    { id: "portfolio6", title: 'This is a portfolio title!', img: img6, link: 'https://dribbble.com/Alien_pixels', gitLink: 'https://github.com' },
+    { id: 'portfolio1', title: 'This is a portfolio title!', img: img1, link: 'https://artadm.github.io/harvardKG/', gitLink: 'https://github.com/artadm/harvardKG' },
+    { id: 'portfolio2', title: 'This is a portfolio title!', img: img2, link: 'https://artadm.github.io/MyBlock/', gitLink: 'https://github.com/artadm/MyBlock' },
+    { id: "portfolio3", title: 'This is a portfolio title!', img: img3, link: 'https://artadm.github.io/5-65-aksuu/', gitLink: 'https://github.com/artadm/5-65-aksuu/' },
+    { id: "portfolio4", title: 'This is a portfolio title!', img: img4, link: 'https://artadm.github.io/workcomp/', gitLink: 'https://github.com/artadm/workcomp/' },
+    { id: "portfolio5", title: 'This is a portfolio title!', img: img5, link: ' https://artadm.github.io/Kembang-Flower-Mantap/', gitLink: 'https://github.com/artadm/Kembang-Flower-Mantap/' },
+    { id: "portfolio6", title: 'This is a portfolio title!', img: img6, link: 'https://artadm.github.io/portfolio/', gitLink: 'https://github.com/artadm/portfolio/' },
   ])
   return (<section id="portfolio">
     <h5>My Recent Work</h5>
