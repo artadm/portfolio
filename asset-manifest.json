@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7d5f633c.css",
-    "main.js": "/portfolio/static/js/main.2467dc57.js",
+    "main.css": "/portfolio/static/css/main.a9496bd6.css",
+    "main.js": "/portfolio/static/js/main.9307406f.js",
+    "static/media/portfolio2.png": "/portfolio/static/media/portfolio2.0eab81d892b728212641.png",
     "static/media/portfolio5.png": "/portfolio/static/media/portfolio5.c322efb31266f15d830d.png",
     "static/media/portfolio1.png": "/portfolio/static/media/portfolio1.5b024e6013c95b61dbe5.png",
-    "static/media/portfolio2.png": "/portfolio/static/media/portfolio2.18f32ee3e2ed0d826886.png",
     "static/media/Sibogatulin Artem resume.pdf": "/portfolio/static/media/Sibogatulin Artem resume.155cdcf6a78ef1601241.pdf",
     "static/media/portfolio3.png": "/portfolio/static/media/portfolio3.9904e79f3848ec9c42af.png",
+    "static/media/mepng.png": "/portfolio/static/media/mepng.aad8784f6f07ef75047e.png",
     "static/media/portfolio4.png": "/portfolio/static/media/portfolio4.2f9d1fd58ffbd133f192.png",
     "static/media/portfolio6.png": "/portfolio/static/media/portfolio6.3033efa39322acb55ee4.png",
-    "static/media/me-about.jpg": "/portfolio/static/media/me-about.4d8fd531334bda36c00d.jpg",
-    "static/media/me.jpg": "/portfolio/static/media/me.e9f2ccd07388edb25e1b.jpg",
+    "static/media/me-about.jpg": "/portfolio/static/media/me-about.06601a840a3fc1fecbc6.jpg",
     "index.html": "/portfolio/index.html",
-    "main.7d5f633c.css.map": "/portfolio/static/css/main.7d5f633c.css.map",
-    "main.2467dc57.js.map": "/portfolio/static/js/main.2467dc57.js.map"
+    "main.a9496bd6.css.map": "/portfolio/static/css/main.a9496bd6.css.map",
+    "main.9307406f.js.map": "/portfolio/static/js/main.9307406f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d5f633c.css",
-    "static/js/main.2467dc57.js"
+    "static/css/main.a9496bd6.css",
+    "static/js/main.9307406f.js"
   ]
 }
