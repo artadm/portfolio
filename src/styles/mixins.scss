@@ -1,0 +1,84 @@
+@keyframes ani {
+    from {
+        -webkit-mask-position: 0 0;
+        mask-position: 0 0;
+    }
+
+    to {
+        -webkit-mask-position: 100% 0;
+        mask-position: 100% 0;
+    }
+}
+
+@keyframes ani2 {
+    from {
+        -webkit-mask-position: 100% 0;
+        mask-position: 100% 0;
+    }
+
+    to {
+        -webkit-mask-position: 0 0;
+        mask-position: 0 0;
+    }
+}
+
+@mixin bgFillHover($colorBg) {
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 101%;
+        height: 100%;
+        background: $colorBg;
+        mask: url("https://raw.githubusercontent.com/pizza3/asset/master/natureSmaller.png");
+        -webkit-mask: url("https://raw.githubusercontent.com/pizza3/asset/master/natureSmaller.png");
+        mask-size: 7100% 100%;
+        -webkit-mask-size: 7100% 100%;
+        cursor: pointer;
+        -webkit-animation: ani2 0.4s steps(70) forwards;
+        animation: ani2 0.4s steps(70) forwards;
+        z-index: -1;
+    }
+
+    &:hover::before {
+        -webkit-animation: ani 0.4s steps(70) forwards;
+        animation: ani 0.4s steps(70) forwards;
+    }
+
+    @content
+}
+
+
+@mixin bgFillHoverAgainst($colorBg) {
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 101%;
+        height: 100%;
+        background: $colorBg;
+        mask: url("https://raw.githubusercontent.com/pizza3/asset/master/natureSmaller.png");
+        -webkit-mask: url("https://raw.githubusercontent.com/pizza3/asset/master/natureSmaller.png");
+        mask-size: 7100% 100%;
+        -webkit-mask-size: 7100% 100%;
+        cursor: pointer;
+        -webkit-animation: ani 0.4s steps(70) forwards;
+        animation: ani 0.4s steps(70) forwards;
+        z-index: -1;
+    }
+
+    &:hover::before {
+        -webkit-animation: ani2 0.4s steps(70) forwards;
+        animation: ani2 0.4s steps(70) forwards;
+    }
+
+    @content
+}

@@ -5,11 +5,15 @@
 }
 
 .portfolio__item {
+    height: 100%;
     background: var(--color-bg-variant);
     padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .portfolio__item:hover {
@@ -20,11 +24,12 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+    height: 205px;
 }
 
 .portfolio__item-image img {
     object-fit: cover;
-    min-height: 205px;
+    height: 100%;
 }
 
 .portfolio__item h3 {

@@ -9,7 +9,8 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/Testimonials";
 import Contacts from "./components/conatcts/Contacts";
 import Footer from "./components/footer/Footer";
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Stars from "./components/Stars/Stars";
+
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
       <Portfolio />
       <Contacts />
       <Footer />
+      <Stars />
     </Suspense>
   );
 };

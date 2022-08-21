@@ -2,6 +2,7 @@ import React from "react";
 import "./Experience.css";
 import { BsFillPatchCheckFill } from 'react-icons/bs'
 import { useState } from "react";
+import { AnimationOnScroll } from "react-animation-on-scroll/dist/js/components";
 
 const Experience = () => {
   const [frontend, setFrontend] = useState([
@@ -13,6 +14,8 @@ const Experience = () => {
     { id: Date.now(), language: 'TypeScript', level: 'Experienced' },
     { id: Date.now(), language: 'Wordpress', level: 'Experienced' },
     { id: Date.now(), language: 'Axios, Thunk', level: 'Intermediate' },
+    { id: Date.now(), language: "Vue, VueX", level: 'Intermediate' },
+    { id: Date.now(), language: 'Angular 9', level: 'Beginner' },
   ])
 
   const [backend, setBackend] = useState([
@@ -22,37 +25,44 @@ const Experience = () => {
 
   ])
   return (<section id="experience">
-    <h5>What Skills I have</h5>
-    <h2>My experience</h2>
-
+    <AnimationOnScroll animateOnce={true} animateIn="animate__bounceInLeft">
+      <div className="section__title">
+        <h5>What Skills I have</h5>
+        <h2>My experience</h2>
+      </div>
+    </AnimationOnScroll>
 
     <div className="container experience__container">
-      <div className="experience__frontend">
-        <h3>Frontend Development</h3>
-        <div className="experience__content">
-          {frontend.map(el =>
-            <article key={el.language} className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div> <h4>{el.language}</h4>
-                <small className="text-light">{el.level}</small></div>
+      <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInUp">
+        <div className="experience__frontend">
+          <h3>Frontend Development</h3>
+          <div className="experience__content">
+            {frontend.map(el =>
+              <article key={el.language} className="experience__details">
+                <BsFillPatchCheckFill className="experience__details-icon" />
+                <div> <h4>{el.language}</h4>
+                  <small className="text-light">{el.level}</small></div>
 
-            </article>
-          )}
+              </article>
+            )}
+          </div>
         </div>
-      </div>
+      </AnimationOnScroll>
 
-      <div className="experience__backend">
-        <h3>Backend Development</h3>
-        <div className="experience__content">
-          {backend.map(el =>
-            <article key={el.language} className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div> <h4>{el.language}</h4>
-                <small className="text-light">{el.level}</small></div>
-            </article>
-          )}
+      <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInUp">
+        <div className="experience__backend">
+          <h3>Backend Development</h3>
+          <div className="experience__content">
+            {backend.map(el =>
+              <article key={el.language} className="experience__details">
+                <BsFillPatchCheckFill className="experience__details-icon" />
+                <div> <h4>{el.language}</h4>
+                  <small className="text-light">{el.level}</small></div>
+              </article>
+            )}
+          </div>
         </div>
-      </div>
+      </AnimationOnScroll>
     </div>
   </section>);
 };
