@@ -17,7 +17,7 @@ const Portfolio = () => {
     { id: "portfolio3", title: 'Clothing online store', img: img3, link: 'https://artadm.github.io/5-65-aksuu/', gitLink: 'https://github.com/artadm/5-65-aksuu/' },
     { id: "portfolio4", title: 'Template for servece company', img: img4, link: 'https://artadm.github.io/workcomp/', gitLink: 'https://github.com/artadm/workcomp/' },
     { id: "portfolio5", title: 'Template for flower shop', img: img5, link: ' https://artadm.github.io/Kembang-Flower-Mantap/', gitLink: 'https://github.com/artadm/Kembang-Flower-Mantap/' },
-    { id: "portfolio6", title: 'This is a my portfolio template!', img: img6, link: 'https://artadm.github.io/portfolio/', gitLink: 'https://github.com/artadm/portfolio/' },
+    { id: "portfolio6", title: 'This is a my portfolio template!', img: img6, link: 'https://artadm.github.io/portfolio/', gitLink: 'https://github.com/artadm/git/' },
   ])
   return (<section id="portfolio">
     <AnimationOnScroll animateOnce={true} animateIn="animate__bounceInLeft">

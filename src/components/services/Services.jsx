@@ -6,29 +6,19 @@ import { AnimationOnScroll } from "react-animation-on-scroll/dist/js/components"
 const Services = () => {
   const [servicesDesign, setServicesDesign]
     = useState([
-      { service: 'Building a design from scratch.', },
-      { service: 'Modern and beautiful websites.', },
-      { id: Date.now(), service: 'Beautiful and mesmerizing animations.', },
-      { service: 'Any of your wishes.', },
+      { service: 'Можете сувать в любые места!', },
+      { service: 'Самые современные виды!', },
+      { id: Date.now(), service: 'Любые позы!', },
+      { service: 'Могу согреть в любое время.', },
     ])
 
-  const [servicesWeb, setServicesWeb]
-    = useState([
-      { service: 'Landing layout.', },
-      { service: 'Layout of online stores.', },
-      { service: 'Sites with single page application', },
-      { service: 'Clean and readable code with decomposition.', },
-      { service: 'Always fast and high quality sites.', },
-      { service: 'Server interaction.', },
-      { service: 'Fixing broken code.', },
-    ])
 
   const [servicesContent, setServicesContent]
     = useState([
-      { service: 'Full time work.', },
-      { service: 'Remote work.', },
-      { service: 'High productivity.', },
-      { service: 'Quick responses.', },
+      { service: 'За один раз беру только 40 палок ;)', },
+      { service: 'Могу удаленно, в зависимости от ваших размеров.', },
+      { service: 'Функция - "Блаженство за 2 минуты" (для занятых дядек).', },
+      { service: 'Быстрая адаптивность', },
     ])
   return <section id="services">
     <AnimationOnScroll animateOnce={true} animateIn="animate__bounceInLeft">
@@ -48,20 +38,6 @@ const Services = () => {
           <ul className="service__list">
             {servicesDesign.map((el, index) =>
               <li key={index + 'des'}><AiOutlineCheck className="service__list-icon" />
-                <p>{el.service}</p>
-              </li>
-            )}
-          </ul>
-        </article>
-
-        <article className="service">
-          <div className="service__head">
-            <h3>Web Development</h3>
-          </div>
-
-          <ul className="service__list">
-            {servicesWeb.map((el, index) =>
-              <li key={index + 'web'}><AiOutlineCheck className="service__list-icon" />
                 <p>{el.service}</p>
               </li>
             )}

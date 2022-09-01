@@ -29,22 +29,15 @@ const Contacts = (props) => {
           <article className="contact__option">
             <AiOutlineMail className="contact__option-icon" />
             <h4>Emial</h4>
-            <h5>sibogatulinartem9@gmail.com</h5>
-            <a href="mailto:sibogatulinartem9@gmail.com" className="contact__link" target='_blank'>Sent a Message</a>
+            <h5>bogdansteam101@gmail.com</h5>
+            <a href="mailto:bogdansteam101@gmail.com" className="contact__link" target='_blank'>Отправить сообщение</a>
           </article>
 
           <article className="contact__option">
             <BsInstagram className="contact__option-icon" />
             <h4>Instagram</h4>
-            <h5>artemioon</h5>
-            <a href="https://www.instagram.com/direct/inbox/" className="contact__link" target='_blank'>Sent a Message</a>
-          </article>
-
-          <article className="contact__option">
-            <FaTelegramPlane className="contact__option-icon" />
-            <h4>Telegram</h4>
-            <h5>+996555162762</h5>
-            <a href="https://web.telegram.org/z/#+996555162762" className="contact__link" target='_blank'>Sent a Message</a>
+            <h5>Bogdan Stringi</h5>
+            <a href="https://www.instagram.com/bogdan_steam2" className="contact__link" target='_blank'>Sent a Message</a>
           </article>
         </div>
       </AnimationOnScroll>
