@@ -53,18 +53,17 @@ $shooting-time: 10000ms;
     // CodePen Error
     // @extend .shooting_star::before;
 
-    content: 'Я Сучка';
-    position: absolute;
-    font-size: 40px;
-    top: calc(50% - 1px);
-    right: -30%;
-    // width: 30px;
-    height: 2px;
-    background: linear-gradient(-45deg, rgba(0, 0, 255, 0), rgba(95, 145, 255, 1), rgba(0, 0, 255, 0));
-    transform: translateX(50%) rotateZ(0);
+    -webkit-animation: shining 10s ease-in-out infinite;
+    animation: shining 10s ease-in-out infinite;
+    background: linear-gradient(-45deg,rgba(0,0,255,0),#5f91ff,rgba(0,0,255,0));
     border-radius: 100%;
-    animation: shining $shooting-time ease-in-out infinite;
-    transform: translateX(50%) rotateZ(0);
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: 0;
+    top: calc(50% - 1px);
+    -webkit-transform: translateX(50%) rotate(45deg);
+    transform: translateX(50%) rotate(-45deg);
   }
 
   @for $i from 1 through 20 {

@@ -6,19 +6,31 @@ import { AnimationOnScroll } from "react-animation-on-scroll/dist/js/components"
 const Services = () => {
   const [servicesDesign, setServicesDesign]
     = useState([
-      { service: 'Можете сувать в любые места!', },
-      { service: 'Самые современные виды!', },
-      { id: Date.now(), service: 'Любые позы!', },
-      { service: 'Могу согреть в любое время.', },
+      { service: 'Building a design from scratch.', },
+      { service: 'Modern and beautiful websites.', },
+      { service: 'Beautiful and mesmerizing animations.', },
+      { service: 'Any of your wishes.', },
     ])
 
 
-  const [servicesContent, setServicesContent]
+  const [servicesWeb, setServicesWeb]
     = useState([
-      { service: 'За один раз беру только 40 палок ;)', },
-      { service: 'Могу удаленно, в зависимости от ваших размеров.', },
-      { service: 'Функция - "Блаженство за 2 минуты" (для занятых дядек).', },
-      { service: 'Быстрая адаптивность', },
+      { service: 'Landing layout.', },
+      { service: 'Layout of online stores.', },
+      { service: 'Sites with single page application.', },
+      { service: 'Clean and readable code with decomposition.', },
+      { service: 'Always fast and high quality sites.', },
+      { service: 'Server interaction.', },
+      { service: 'Fixing broken code.', },
+    ])
+
+    const [servicesJob, setServicesJob]
+    = useState([
+      { service: 'Remote work.', },
+      { service: 'Quick responses.', },
+      { service: 'High productivity.', },
+      { service: 'Part-time work.', },
+      { service: 'Abilities to work with team.', },
     ])
   return <section id="services">
     <AnimationOnScroll animateOnce={true} animateIn="animate__bounceInLeft">
@@ -46,11 +58,25 @@ const Services = () => {
 
         <article className="service">
           <div className="service__head">
-            <h3>Job</h3>
+            <h3>Web Development</h3>
           </div>
 
           <ul className="service__list">
-            {servicesContent.map((el, index) =>
+            {servicesWeb.map((el, index) =>
+              <li key={index + 'cont'}><AiOutlineCheck className="service__list0icon" />
+                <p>{el.service}</p>
+              </li>
+            )}
+          </ul>
+        </article>
+
+        <article className="service">
+          <div className="service__head">
+            <h3>Work abilities</h3>
+          </div>
+
+          <ul className="service__list">
+            {servicesJob.map((el, index) =>
               <li key={index + 'cont'}><AiOutlineCheck className="service__list0icon" />
                 <p>{el.service}</p>
               </li>

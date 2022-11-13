@@ -22,6 +22,20 @@
     }
 }
 
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
 @mixin bgFillHover($colorBg) {
     position: relative;
     overflow: hidden;
@@ -82,3 +96,60 @@
 
     @content
 }
+
+@mixin btn-up(){
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    &:active {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+}
+
+
+@mixin shadow-block($bg-color: var(--color-bg-variant)) {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+    position: relative;
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    &:active {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    &::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 1.25rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        transition: var(--transition);
+        background-color: $bg-color;
+        z-index: -10;
+    }
+    
+    
+    &:hover::after {
+        transform: scaleX(1.1) scaleY(1.3);
+        opacity: 0;
+    }
+    
+    .btn-animated {
+        animation: moveInBottom 5s ease-out;
+        animation-fill-mode: backwards;
+    }
+    @content;
+}
+

@@ -19,6 +19,7 @@ const Experience = () => {
   ])
 
   const [backend, setBackend] = useState([
+    { id: Date.now(), language: 'C/C++', level: 'Beginner' },
     { id: Date.now(), language: 'Node Js', level: 'Beginner' },
     { id: Date.now(), language: 'PHP', level: 'Beginner' },
     { id: Date.now(), language: 'Python', level: 'Beginner' },

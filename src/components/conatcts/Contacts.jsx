@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import "./Contacts.scss";
 import { AiOutlineMail, AiOutlineWhatsApp } from 'react-icons/ai'
 import { FaTelegramPlane } from 'react-icons/fa'
-import { BsInstagram } from 'react-icons/bs'
+import { BsInstagram, BsTelegram } from 'react-icons/bs'
 import { AnimationOnScroll } from "react-animation-on-scroll/dist/js/components";
 
 const Contacts = (props) => {
@@ -29,15 +29,22 @@ const Contacts = (props) => {
           <article className="contact__option">
             <AiOutlineMail className="contact__option-icon" />
             <h4>Emial</h4>
-            <h5>bogdansteam101@gmail.com</h5>
-            <a href="mailto:bogdansteam101@gmail.com" className="contact__link" target='_blank'>Отправить сообщение</a>
+            <h5>sibogatulinartem9@gmail.com</h5>
+            <a href="mailto:sibogatulinartem9@gmail.com" className="contact__link" target='_blank'>Sent a Message</a>
           </article>
 
           <article className="contact__option">
             <BsInstagram className="contact__option-icon" />
             <h4>Instagram</h4>
-            <h5>Bogdan Stringi</h5>
-            <a href="https://www.instagram.com/bogdan_steam2" className="contact__link" target='_blank'>Sent a Message</a>
+            <h5>artemioon</h5>
+            <a href="https://www.instagram.com/artemioon" className="contact__link" target='_blank'>Sent a Message</a>
+          </article>
+
+          <article className="contact__option">
+            <FaTelegramPlane className="contact__option-icon" />
+            <h4>Telegram</h4>
+            <h5>+996555162762</h5>
+            <a href="https://telegram.me/Artemi0n" className="contact__link" target='_blank'>Sent a Message</a>
           </article>
         </div>
       </AnimationOnScroll>

@@ -30,7 +30,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; ARTEM : All rights reserved</small>
+        <small>&copy; ARTEM SIBOGATULIN : All rights reserved</small>
       </div>
     </footer>
   </AnimationOnScroll >;

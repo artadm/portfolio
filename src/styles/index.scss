@@ -105,12 +105,13 @@ a:hover {
     cursor: pointer;
     border: 1px solid var(--color-primary);
     transition: var(--transition);
-    @include mixins.bgFillHoverAgainst(var(--color-white));
-
+    background: transparent;
+    // @include mixins.bgFillHoverAgainst(var(--color-white));
+    @include mixins.btn-up;
     &:hover {
-
+        background: var(--color-white);
         color: var(--color-bg);
-        border-color: transparent;
+        border-color: var(--color-white);
     }
 
 }
@@ -118,7 +119,7 @@ a:hover {
 .btn_primary {
     background: var(--color-primary);
     color: var(--color-bg);
-    @include mixins.bgFillHover(var(--color-primary));
+    // @include mixins.bgFillHover(var(--color-primary));
 
     &:hover {
         background: transparent;
