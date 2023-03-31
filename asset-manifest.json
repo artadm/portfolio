@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.303264e3.css",
-    "main.js": "/portfolio/static/js/main.462f968c.js",
+    "main.css": "/portfolio/static/css/main.07260d1e.css",
+    "main.js": "/portfolio/static/js/main.547bb69b.js",
     "static/media/portfolio2.png": "/portfolio/static/media/portfolio2.0eab81d892b728212641.png",
+    "static/media/dropshippingtrade_1.png": "/portfolio/static/media/dropshippingtrade_1.08d89a71e59037b07ccc.png",
+    "static/media/crypto4fun_1.png": "/portfolio/static/media/crypto4fun_1.522bc83ca4a015849310.png",
     "static/media/portfolio5.png": "/portfolio/static/media/portfolio5.c322efb31266f15d830d.png",
     "static/media/portfolio1.png": "/portfolio/static/media/portfolio1.5b024e6013c95b61dbe5.png",
-    "static/media/Sibogatulin Artem resume.pdf": "/portfolio/static/media/Sibogatulin Artem resume.155cdcf6a78ef1601241.pdf",
     "static/media/portfolio3.png": "/portfolio/static/media/portfolio3.9904e79f3848ec9c42af.png",
     "static/media/mepng.png": "/portfolio/static/media/mepng.aad8784f6f07ef75047e.png",
     "static/media/portfolio4.png": "/portfolio/static/media/portfolio4.2f9d1fd58ffbd133f192.png",
-    "static/media/portfolio6.png": "/portfolio/static/media/portfolio6.3033efa39322acb55ee4.png",
     "static/media/me-about.jpg": "/portfolio/static/media/me-about.06601a840a3fc1fecbc6.jpg",
+    "static/media/SibogatulinArtemResume_EN.pdf": "/portfolio/static/media/SibogatulinArtemResume_EN.9cbd03f9fa984854a12d.pdf",
     "index.html": "/portfolio/index.html",
-    "main.303264e3.css.map": "/portfolio/static/css/main.303264e3.css.map",
-    "main.462f968c.js.map": "/portfolio/static/js/main.462f968c.js.map"
+    "main.07260d1e.css.map": "/portfolio/static/css/main.07260d1e.css.map",
+    "main.547bb69b.js.map": "/portfolio/static/js/main.547bb69b.js.map"
   },
   "entrypoints": [
-    "static/css/main.303264e3.css",
-    "static/js/main.462f968c.js"
+    "static/css/main.07260d1e.css",
+    "static/js/main.547bb69b.js"
   ]
 }
